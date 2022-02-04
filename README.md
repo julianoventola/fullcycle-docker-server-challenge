@@ -13,13 +13,10 @@
 
 # How to use
 
-- _Requirements_: Since i did not upload node_module's folder, you will need a nodejs installation in your machine
 - Clone the repository
 - run in cmd:
 
   ```cmd
-  cd node
-  cd npm i
-  cd ..
+  cd server
   docker compose up -d
   ```
