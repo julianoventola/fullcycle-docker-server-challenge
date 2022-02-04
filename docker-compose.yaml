@@ -20,7 +20,7 @@ services:
     networks:
       - node-network
     volumes:
-      - ./node:/usr/src/app
+      - node:/usr/src/app
     expose:
       - "3000"
     depends_on:
@@ -47,4 +47,5 @@ networks:
 
 volumes:
   mysql:
+  node:
   
